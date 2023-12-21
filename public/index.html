@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TTS WebApp</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="fakeAds.js" defer></script>
+</head>
+
+<body>
+    <div id="ad-banner">
+        <span>Ads</span>
+    </div>
+    <form id="form">
+        <textarea id="text" placeholder="Enter your text here..." autofocus></textarea>
+        <select id="voices"></select>
+        <button id="button" type="submit">Generate Audio</button>
+    </form>
+    <audio controls id="audio"></audio>
+    <p id="progress"></p>
+</body>
+
+</html>
